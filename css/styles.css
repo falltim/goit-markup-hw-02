@@ -1,7 +1,10 @@
-.body {
+body {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
+}
+body {
+  color: rgba(33, 33, 33, 1);
 }
 .m-link {
   color: rgba(33, 33, 33, 1);
@@ -9,15 +12,30 @@
 .m-link:hover {
   color: rgba(33, 150, 243, 1);
 }
+}
+.m-link:focus {
+  color: rgba(33, 150, 243, 1);
+}
+.m-link {
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 700;
+}
 .link-nav .link {
-  color: black;
+  color: rgba(33, 33, 33, 1);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
 }
 .link:hover {
   color: rgba(33, 150, 243, 1);
 }
 
 .link-contacts .contact {
-  color: #757575;
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
 }
 .contact:hover {
   color: rgba(33, 150, 243, 1);
@@ -32,4 +50,20 @@
 .site-nav .btn:hover {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(33, 150, 243, 1);
+}
+.site-nav .btn {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+.titles{
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.sub-tittle{
+  background-color:rgba(169, 239, 17, 1);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
 }
