@@ -1,6 +1,35 @@
-body{
-    font-family: "Roboto", sans-serif;
+.body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
 }
-.site-nav: hower {
-    rgba(245,244,250,1)
+.m-link {
+  color: rgba(33, 33, 33, 1);
+}
+.m-link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.link-nav .link {
+  color: black;
+}
+.link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.link-contacts .contact {
+  color: #757575;
+}
+.contact:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.contact:focus {
+  color: rgba(117, 255, 5, 1);
+}
+
+.site-nav .btn {
+  color: rgba(33, 33, 33, 1);
+}
+.site-nav .btn:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 150, 243, 1);
 }
