@@ -21,13 +21,21 @@ body {
 .link {
   text-decoration: none;
 }
-.header-logo {
+.logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .menu-link {
   font-weight: 500;
@@ -73,7 +81,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-title-collor);
   background-color: var(--accent-color);
-  text-transform: uppercase;
 }
 /* ----------main-section--------------- */
 .pre-title {
@@ -93,6 +100,7 @@ body {
   color: var(--primary-text-color);
 }
 .section-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -115,6 +123,7 @@ body {
   color: var(--primary-text-color);
 }
 .job-title {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -150,11 +159,12 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: var(--primary-title-collor);
 }
 
 /* ------------portfolio.html-------------- */
 .btn {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -170,11 +180,11 @@ btn:focus {
 .about-title {
   font-weight: bold;
   font-size: 18px;
-  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
 .about-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
